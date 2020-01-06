@@ -13,19 +13,8 @@ A curated list of action recognition and related area (e.g. object recognition, 
 
 
 ### Video Representation
-* [Large-scale weakly-supervised pre-training for video action recognition](https://research.fb.com/wp-content/uploads/2019/05/Large-scale-weakly-supervised-pre-training-for-video-action-recognition.pdf?) - D. Ghadiyaram et al., arXiv2019.
-* [Video Classification with Channel-Separated Convolutional Networks](https://arxiv.org/pdf/1904.02811.pdf) - D. Tran et al., arXiv2019.
-* [DistInit: Learning Video Representations without a Single Labeled Video](https://arxiv.org/pdf/1901.09244.pdf) - R. Girdhar et al., arXiv2019.
-* [SCSampler: Sampling Salient Clips from Video for Efficient Action Recognition](https://arxiv.org/pdf/1904.04289.pdf) - B. Korbar et al., arXiv2019.
-* [Video Action Transformer Network](https://arxiv.org/pdf/1812.02707.pdf) - R. Girdhar et al., CVPR2019. [[project web]](https://rohitgirdhar.github.io/ActionTransformer/)
-* [Learning Correspondence from the Cycle-consistency of Time](https://arxiv.org/pdf/1903.07593.pdf) - X. Wang et al., CVPR2019. [[code]](https://github.com/xiaolonw/TimeCycle) [[project web]](https://ajabri.github.io/timecycle/)
+
 * [Representation Flow for Action Recognition](https://arxiv.org/pdf/1810.01455.pdf) - AJ. Piergiovanni and M. S. Ryoo et al., CVPR2019.
-* [Collaborative Spatiotemporal Feature Learning for Video Action Recognition](https://arxiv.org/pdf/1903.01197.pdf) - C. Li et al., CVPR2019. 
-* [Learning Video Representations from Correspondence Proposals](https://arxiv.org/pdf/1905.07853.pdf) - X. Liu et al., CVPR2019.
-* [Timeception for Complex Action Recognition](https://arxiv.org/pdf/1812.01289.pdf) - N. Hussein et al., CVPR2019.
-* [The Visual Centrifuge: Model-Free Layered Video Representations](https://arxiv.org/pdf/1812.01461.pdf) - J.-B. Alayrac et al., CVPR2019.
-* [Long-Term Feature Banks for Detailed Video Understanding](https://arxiv.org/pdf/1812.05038.pdf) - C.-Y. Wu. et al., CVPR2019. [[code]](https://github.com/facebookresearch/video-long-term-feature-banks/)
-* [Temporal Relational Reasoning in Videos](https://arxiv.org/pdf/1711.08496.pdf) - B. Zhou et al., ECCV2018. [[code]](https://github.com/metalbubble/TRN-pytorch) [[project web]](http://relation.csail.mit.edu/)
 * [Action Recognition Zoo](https://github.com/coderSkyChen/Action_Recognition_Zoo) - 
 Codes for popular action recognition models, written based on pytorch, verified on the something-something dataset.
 * [Videos as Space-Time Region Graphs](https://arxiv.org/pdf/1806.01810.pdf) - X. Wang and A. Gupta, ECCV2018.
@@ -42,8 +31,7 @@ Codes for popular action recognition models, written based on pytorch, verified 
 * [Temporal Convolutional Networks: A Unified Approach to Action Segmentation and Detection](https://arxiv.org/pdf/1611.05267.pdf) - C. Lea et al, CVPR 2017. [[code]](https://github.com/colincsl/TemporalConvolutionalNetworks)
 * [Long-term Temporal Convolutions](https://arxiv.org/pdf/1604.04494v1.pdf) - G. Varol et al, TPAMI2017. [[project web]](http://www.di.ens.fr/willow/research/ltc/) [[code]](https://github.com/gulvarol/ltc) 
 * [Temporal Segment Networks: Towards Good Practices for Deep Action Recognition](https://arxiv.org/pdf/1608.00859.pdf) - L. Wang et al, arXiv 2016. [[code]](https://github.com/yjxiong/temporal-segment-networks)
-* [Convolutional Two-Stream Network Fusion for Video Action Recognition](https://arxiv.org/pdf/1604.06573.pdf) - C. Feichtenhofer et al, CVPR2016. [[code]](https://github.com/feichtenhofer/twostreamfusion)
-* [Two-Stream Convolutional Networks for Action Recognition in Videos](http://www.robots.ox.ac.uk/~vgg/publications/2014/Simonyan14b/simonyan14b.pdf.pdf) - K. Simonyan and A. Zisserman, NIPS2014.
+
 
 #### Useful Code Repos on Video Representation Learning
 * [[3D ResNet PyTorch]](https://github.com/kenshohara/3D-ResNets-PyTorch)
