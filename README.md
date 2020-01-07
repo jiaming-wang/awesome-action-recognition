@@ -21,7 +21,6 @@ Codes for popular action recognition models, written based on pytorch, verified 
 * [ConvNet Architecture Search for Spatiotemporal Feature Learning](https://arxiv.org/abs/1708.05038) - D. Tran et al, arXiv2017. Note: Aka Res3D. [[code]](https://github.com/facebook/C3D): In the repository, C3D-v1.1 is the Res3D implementation.
 * [Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset](https://arxiv.org/pdf/1705.07750.pdf) - J. Carreira et al, CVPR2017. [[code]](https://github.com/deepmind/kinetics-i3d)[[PyTorch code]](https://github.com/hassony2/kinetics_i3d_pytorch), [[another PyTorch code]](https://github.com/piergiaj/pytorch-i3d)
 * [Temporal Convolutional Networks: A Unified Approach to Action Segmentation and Detection](https://arxiv.org/pdf/1611.05267.pdf) - C. Lea et al, CVPR 2017. [[code]](https://github.com/colincsl/TemporalConvolutionalNetworks)
-* [Long-term Temporal Convolutions](https://arxiv.org/pdf/1604.04494v1.pdf) - G. Varol et al, TPAMI2017. [[project web]](http://www.di.ens.fr/willow/research/ltc/) [[code]](https://github.com/gulvarol/ltc) 
 * [Temporal Segment Networks: Towards Good Practices for Deep Action Recognition](https://arxiv.org/pdf/1608.00859.pdf) - L. Wang et al, arXiv 2016. [[code]](https://github.com/yjxiong/temporal-segment-networks)
 
 
@@ -48,14 +47,6 @@ Codes for popular action recognition models, written based on pytorch, verified 
 * [Real-time Action Recognition with Enhanced Motion Vector CNNs](http://arxiv.org/abs/1604.07669) - B. Zhang et al, CVPR2016. [[code]](https://github.com/zbwglory/MV-release)
 * [Action Recognition with Trajectory-Pooled Deep-Convolutional Descriptors](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wang_Action_Recognition_With_2015_CVPR_paper.pdf) - L. Wang et al, CVPR2015. [[code]](https://github.com/wanglimin/TDD)
 
-### Skeleton-Based Action Classification
-* [Actional-Structural Graph Convolutional Networks for Skeleton-Based Action Recognition](http://openaccess.thecvf.com/content_CVPR_2019/html/Li_Actional-Structural_Graph_Convolutional_Networks_for_Skeleton-Based_Action_Recognition_CVPR_2019_paper.html) - M. Li et al., CVPR2019.
-* [An Attention Enhanced Graph Convolutional LSTM Network for Skeleton-Based Action Recognition](https://arxiv.org/abs/1902.09130) - C. Si et al., CVPR2019.
-* [View Adaptive Neural Networks for High Performance Skeleton-Based Human Action Recognition](https://ieeexplore.ieee.org/abstract/document/8630687) - P. Zhang et al., TPAMI2019.
-* [Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewPaper/17135) - S. Yan et al., AAAI2018. [[code]](https://github.com/yysijie/st-gcn)
-* [Deep Progressive Reinforcement Learning for Skeleton-Based Action Recognition](http://openaccess.thecvf.com/content_cvpr_2018/html/Tang_Deep_Progressive_Reinforcement_CVPR_2018_paper.html) - Y. Tang et al., CVPR2018.
-* [Co-occurrence Feature Learning from Skeleton Data for Action Recognition and Detection with Hierarchical Aggregation](https://dl.acm.org/citation.cfm?id=3304527) - C. Li et al., IJCAI2018.
-* [Part-based Graph Convolutional Network for Action Recognition](http://bmvc2018.org/contents/papers/1003.pdf) - K. Thakkar et al., BMVC2018.
 
 ### Temporal Action Detection
 * [Rethinking the Faster R-CNN Architecture for Temporal Action Localization](https://arxiv.org/pdf/1804.07667v1.pdf) - Yu-Wei Chao et al., CVPR2018
@@ -119,37 +110,6 @@ Codes for popular action recognition models, written based on pytorch, verified 
 * [Slicing Convolutional Neural Network for Crowd Video Understanding](http://www.ee.cuhk.edu.hk/~jshao/papers_jshao/jshao_cvpr16_scnn.pdf) - J. Shao et al, CVPR2016. [[code]](https://github.com/amandajshao/Slicing-CNN)
 * [Two-Stream (RGB and Flow) pretrained model weights](https://github.com/craftGBD/caffe-GBD/tree/master/models/action_recognition)
 
-### Action Recognition Datasets
-* [HACS](http://hacs.csail.mit.edu/) 
-* [Moments in Time](http://moments.csail.mit.edu/), [paper](http://moments.csail.mit.edu/data/moments_paper.pdf)
-* [AVA](https://research.google.com/ava/), [paper](https://arxiv.org/abs/1705.08421), [[INRIA web]](http://thoth.inrialpes.fr/ava/getava.php) for missing videos
-* [Kinetics](https://deepmind.com/research/open-source/open-source-datasets/kinetics/), [paper](https://arxiv.org/pdf/1705.07750.pdf), [download toolkit](https://github.com/activitynet/ActivityNet/tree/master/Crawler/Kinetics)
-* [YouTube-8M](https://research.google.com/youtube8m/), [technical report](https://arxiv.org/abs/1609.08675)
-* [YouTube-BB](https://research.google.com/youtube-bb/), [technical report](https://arxiv.org/pdf/1702.00824.pdf)
-* [DALY](http://thoth.inrialpes.fr/daly/) Daily Action Localization in Youtube videos. Note: Weakly supervised action detection dataset. Annotations consist of start and end time of each action, one bounding box per each action per video.
-* [20BN-JESTER](https://www.twentybn.com/datasets/jester), [20BN-SOMETHING-SOMETHING](https://www.twentybn.com/datasets/something-something)
-* [ActivityNet](http://activity-net.org/) Note: They provide a download script and evaluation code [here](https://github.com/activitynet) .
-* [Charades](http://allenai.org/plato/charades/)
-* [Charades-Ego](https://prior.allenai.org/projects/charades-ego), [paper](https://arxiv.org/pdf/1804.09626.pdf) - First person and third person video aligned dataset
-* [EPIC-Kitchens](https://epic-kitchens.github.io/), [paper](https://arxiv.org/abs/1804.02748) - First person videos recorded in kitchens. Note they provide download scripts and a python library [here](https://github.com/epic-kitchens)
-* [Sports-1M](http://cs.stanford.edu/people/karpathy/deepvideo/classes.html) - Large scale action recognition dataset.
-* [THUMOS14](http://crcv.ucf.edu/THUMOS14/) Note: It overlaps with [UCF-101](http://crcv.ucf.edu/data/UCF101.php) dataset. 
-* [THUMOS15](http://www.thumos.info/home.html) Note: It overlaps with [UCF-101](http://crcv.ucf.edu/data/UCF101.php) dataset.
-* [HOLLYWOOD2](http://www.di.ens.fr/~laptev/actions/hollywood2/): [Spatio-Temporal annotations](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html#data)
-* [UCF-101](http://crcv.ucf.edu/data/UCF101.php), [annotation provided by THUMOS-14](http://crcv.ucf.edu/ICCV13-Action-Workshop/index.files/UCF101_24Action_Detection_Annotations.zip), and [corrupted annotation list](https://github.com/jinwchoi/Jinwoo-Computer-Vision-and-Machine-Learing-papers-to-read/blob/master/UCF101_Spatial_Annotation_Corrupted_file_list),  [UCF-101 corrected annotations](https://github.com/gurkirt/corrected-UCF101-Annots) and [different version annotaions](https://github.com/jvgemert/apt). And there are also some pre-computed spatiotemporal action detection [results](https://drive.google.com/drive/folders/0B-LzM05qEdk0aG5pTE94VFI1SUk)
-* [UCF-50](http://crcv.ucf.edu/data/UCF50.php).
-* [UCF-Sports](http://crcv.ucf.edu/data/UCF_Sports_Action.php), note: the train/test split link in the official website is broken. Instead, you can download it from [here](http://pascal.inrialpes.fr/data2/oneata/data/ucf_sports/videos.txt).
-* [HMDB](http://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/)
-* [J-HMDB](http://jhmdb.is.tue.mpg.de/)
-* [LIRIS-HARL](http://liris.cnrs.fr/voir/activities-dataset/)
-* [KTH](http://www.nada.kth.se/cvap/actions/)
-* [MSR Action](https://www.microsoft.com/en-us/download/details.aspx?id=52315) Note: It overlaps with [KTH](http://www.nada.kth.se/cvap/actions/) datset.
-* [Sports Videos in the Wild](http://cvlab.cse.msu.edu/project-svw.html)
-* [NTU RGB+D](https://github.com/shahroudy/NTURGB-D)
-* [Mixamo Mocap Dataset](http://mocap.cs.cmu.edu/)
-* [UWA3D Multiview Activity II Dataset](http://staffhome.ecm.uwa.edu.au/~00053650/databases.html)
-* [Northwestern-UCLA Dataset](https://users.eecs.northwestern.edu/~jwa368/my_data.html)
-* [SYSU 3D Human-Object Interaction Dataset](http://www.isee-ai.cn/~hujianfang/ProjectJOULE.html)
 
 ### Video Annotation
 * [Efficiently scaling up crowdsourced video annotation](http://cvrr.ucsd.edu/ece285/Spring2014/papers/Vondrick_IJCV2013.pdf) - C. Vondrick et. al, IJCV2013. [[code]](https://github.com/cvondrick/vatic)
@@ -157,37 +117,7 @@ Codes for popular action recognition models, written based on pytorch, verified 
 * [VTT: Visual Object Tagging Tool](https://github.com/microsoft/VoTT). Modern app to annotate objects in videos and images. It facilitates the development of an end-to-end machine learning pipeline encompassing the annotation/export/import of assets. Moreover, it could run as a native app or via web.
 * [VIA: VGG Image Annotator](http://www.robots.ox.ac.uk/~vgg/software/via/). Simple and standalone manual annotation web-app for image, audio and video. It runs in the web browser and does not require any installation or setup.
 
-## Object Recognition
 
-### Object Detection
-* [Deformable Convolutional Networks](http://openaccess.thecvf.com/content_ICCV_2017/papers/Dai_Deformable_Convolutional_Networks_ICCV_2017_paper.pdf) - J. Dai et al., ICCV2017. [[official code]](https://github.com/msracver/Deformable-ConvNets)
-* [Detectron](https://github.com/facebookresearch/Detectron) - Open Source Object Detection Framework from Facebook AI Research. Includes Mask R-CNN, FPN, and etc. Caffe2 implementation.
-* [Mask R-CNN](https://arxiv.org/abs/1703.06870) - K. He et al, [[Detectron]](https://github.com/facebookresearch/Detectron), [[TensorFlow + Keras]](https://github.com/matterport/Mask_RCNN), [[MXNet]](https://github.com/TuSimple/mx-maskrcnn), [[TensorFlow]](https://github.com/CharlesShang/FastMaskRCNN), [[PyTorch]](https://github.com/felixgwu/mask_rcnn_pytorch) - State-of-the-art object detection/instance segmentation algorithm.
-* [Faster R-CNN](https://arxiv.org/abs/1506.01497) - S. Ren et al, NIPS2015. [[official MatCaffe code]](https://github.com/ShaoqingRen/faster_rcnn), [[PyCaffe]](https://github.com/rbgirshick/py-faster-rcnn), [[TensorFlow]](https://github.com/smallcorgi/Faster-RCNN_TF), [[Another TF implementation]](https://github.com/CharlesShang/TFFRCNN) [[Keras]](https://github.com/yhenon/keras-frcnn) - State-of-the-art object detector.
-* [YOLO](https://pjreddie.com/media/files/papers/yolo.pdf) - J. Redmon et al, CVPR2016. [[official code]](https://github.com/pjreddie/darknet.git), [[TensorFLow]](https://github.com/gliese581gg/YOLO_tensorflow) - Fast object detector.
-* [YOLO9000](https://arxiv.org/abs/1612.08242) - J. Redmon and A. Farhadi, CVPR2017. [[official code]](https://pjreddie.com/darknet/yolo/) - State-of-the-art object detector which can detect 9000 objects in realtime.
-* [SSD](https://arxiv.org/abs/1512.02325) - W. Liu et al, ECCV2016. [[official PyCaffe code]](https://github.com/weiliu89/caffe/tree/ssd), [[TensorFlow]](https://github.com/balancap/SSD-Tensorflow), [[Keras]](https://github.com/rykov8/ssd_keras) - State-of-the-art object detector with realtime processing speed.
-* [RetinaNet](https://arxiv.org/abs/1708.02002) - Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He and Piotr Dollár, Facebook AI Research FAIR & ICCV 2017.[[Keras]](https://github.com/fizyr/keras-retinanet) - State-of-the-art object detector with realtime processing speed.
-
-### Video Object Detection
-* [Detect to Track and Track to Detect] - C. Feichtenhofer et al., ICCV2017. [[code]](https://github.com/feichtenhofer/detect-track), [[project web]](http://www.robots.ox.ac.uk/~vgg/research/detect-track/)
-* [Flow-Guided Feature Aggregation for Video Object Detection] - X. Zhu et al., ICCV2017. [[code]](https://github.com/msracver/Flow-Guided-Feature-Aggregation), aka FGFA
-
-### Video Object Detection Datasets
-* [ImageNet VID](http://image-net.org/challenges/LSVRC/2017/download-images-1p39.php)
-* [YouTube-8M](https://research.google.com/youtube8m/), [technical report](https://arxiv.org/abs/1609.08675)
-* [YouTube-BB](https://research.google.com/youtube-bb/), [technical report](https://arxiv.org/pdf/1702.00824.pdf)
-
-
-## Pose Estimation
-
-### Pose Estimation
-* [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) - PyTorch based realtime and accurate pose estimation and tracking tool from SJTU.
-* [Detect-and-Track: Efficient Pose Estimation in Videos](https://arxiv.org/abs/1712.09184) - R. Girdhar et al., arXiv2017.
-* [OpenPose Library](https://github.com/CMU-Perceptual-Computing-Lab/openpose) - Caffe based realtime pose estimation library from CMU.
-* [Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields](https://arxiv.org/abs/1611.08050) - Z. Cao et al, CVPR2017. [[code]](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation) depends on the [[caffe RT pose]](https://github.com/CMU-Perceptual-Computing-Lab/caffe_rtpose.git) - Earlier version of OpenPose from CMU.
-* [DensePose](https://arxiv.org/abs/1802.00434v1) [[code]](https://github.com/facebookresearch/DensePose) - Dense pose human estimation in the wild implemented in the Detectron framework.
-* [MultiPoseNet: Fast Multi-Person Pose Estimation using Pose Residual Network](https://arxiv.org/abs/1807.04067) - M. Kocabas et al, ECCV2018. [[code]](https://github.com/salihkaragoz/pose-residual-network-pytorch)
 
 ## Licenses
 License
