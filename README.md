@@ -17,8 +17,6 @@ Codes for popular action recognition models, written based on pytorch, verified 
 * [[3D ResNet PyTorch]](https://github.com/kenshohara/3D-ResNets-PyTorch)
 * [[PyTorch Video Research]](https://github.com/gsig/PyVideoResearch)
 * [[M-PACT: Michigan Platform for Activity Classification in Tensorflow]](https://github.com/MichiganCOG/M-PACT)
-* [[Inflated models on PyTorch]](https://github.com/hassony2/inflated_convnets_pytorch)
-* [[I3D models transfered from Tensorflow to PyTorch]](https://github.com/hassony2/kinetics_i3d_pytorch)
 * [[A Two Stream Baseline on Kinectics dataset]](https://github.com/gurkirt/2D-kinectics)
 * [[MMAction]](https://github.com/open-mmlab/mmaction)
 
