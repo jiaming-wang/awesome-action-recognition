@@ -1,17 +1,6 @@
 # Awesome Action Recognition: [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 A curated list of action recognition and related area (e.g. object recognition, pose estimation) resources, inspired by [awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision).
 
-## Contents
- - [Action Recognition and Video Understanding](#action-recognition-and-video-understanding)
- - [Object Recognition](#object-recognition)
- - [Pose Estimation](#pose-estimation)
-
-## Action Recognition and Video Understanding
-
-### Summary posts
-* [Deep Learning for Videos: A 2018 Guide to Action Recognition](http://blog.qure.ai/notes/deep-learning-for-videos-action-recognition-review) - Summary of major landmark action recognition research papers till 2018
-
-
 ### Video Representation
 
 * [Representation Flow for Action Recognition](https://arxiv.org/pdf/1810.01455.pdf) - AJ. Piergiovanni and M. S. Ryoo et al., CVPR2019.
